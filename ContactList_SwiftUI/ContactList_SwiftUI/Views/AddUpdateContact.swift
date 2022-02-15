@@ -52,8 +52,7 @@ struct AddUpdateContact: View {
                         Spacer()
                         VStack {
                             Text("Background Color")
-                                .foregroundColor(Color.black)
-                                .font(.headline)
+                                .font(.caption)
                             ScrollView {
                                 LazyVGrid(columns: pickColorTable, spacing: 1) {
                                     ForEach(vm.mainColorTable, id: \.self) { color in
@@ -86,8 +85,7 @@ struct AddUpdateContact: View {
                         Spacer()
                         VStack {
                             Text("Font Color")
-                                .font(.headline)
-                                .foregroundColor(Color.black)
+                                .font(.caption)
                             ScrollView {
                                 LazyVGrid(columns: pickColorTable, spacing: 1) {
                                     ForEach(vm.mainColorTable, id: \.self) { color in
