@@ -1,6 +1,10 @@
 # ContactList_SwiftUI
 iOS contact list SwiftUI app
 
+![title](Images/cl_icon_152.jpg)
+
+
+
 ## Introduction
 This app is intended to work as a contact list, storing names and phone numbers, working as a database of easy access to all employees of a company.
 
