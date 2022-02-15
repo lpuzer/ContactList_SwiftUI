@@ -28,6 +28,12 @@ Clicking on the edit option will open the same form sheet used to include contac
 ![title](Images/updateSheet.jpg)
 
 
+### Delete Contacts
+The app makes use of the onDelete function to exclude contacts. Once in the Contact List View, you can swipe from right to left across any of the rows in the list, and you should find a delete button appears. You can tap that, or you can also use iOS’s swipe to delete functionality by swiping further, as show in image bellow.
+
+![title](Images/deleteContact.jpg)
+
+
 ## Technical Information
 ### Development
 The app was built using Swift 5.5.2, the framework SwiftUI, Xcode 13.2.1, and is intended to work on iOS 15.0 or later.
