@@ -37,8 +37,7 @@ struct ContactListView: View {
                                     }.frame(width: geometry.size.width*0.8, height: geometry.size.height/8)
                                         .background(Color(contact.backcolor))
                                         .cornerRadius(20)
-                                    
-                                    
+
                                     Button(action: {
                                         self.showOptions.toggle()
                                         self.selectedContact = contact
